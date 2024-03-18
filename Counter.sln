@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counter", "Counter\Counter.csproj", "{03F5294E-9FB1-4AE4-9292-6A3766CF5B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterLib", "CounterLib\CounterLib.csproj", "{5D14680B-1511-476B-A503-B5A5D32C92A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCounter", "TestCounter\TestCounter.csproj", "{CADF14E5-2DCA-4723-89F3-F1A4EC9A6FD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F5294E-9FB1-4AE4-9292-6A3766CF5B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F5294E-9FB1-4AE4-9292-6A3766CF5B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F5294E-9FB1-4AE4-9292-6A3766CF5B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F5294E-9FB1-4AE4-9292-6A3766CF5B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D14680B-1511-476B-A503-B5A5D32C92A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D14680B-1511-476B-A503-B5A5D32C92A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D14680B-1511-476B-A503-B5A5D32C92A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D14680B-1511-476B-A503-B5A5D32C92A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADF14E5-2DCA-4723-89F3-F1A4EC9A6FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADF14E5-2DCA-4723-89F3-F1A4EC9A6FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADF14E5-2DCA-4723-89F3-F1A4EC9A6FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADF14E5-2DCA-4723-89F3-F1A4EC9A6FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37B903EA-8D72-49D8-94B4-9E7F78C0D48F}
+	EndGlobalSection
+EndGlobal
