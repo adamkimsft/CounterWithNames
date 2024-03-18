@@ -11,7 +11,7 @@ namespace CounterLib
             var sb = new StringBuilder();
             for (int x = 1; x <= upperBound; x++)
             {
-                if (x % 15 == 0)
+                if (x % 3 == 0 && x % 5 == 0)
                 {
                     sb.AppendLine("Adam Kim");
                 }
@@ -37,7 +37,6 @@ namespace CounterLib
                 throw new ArgumentException();
             }
             var (v1, v2) = multiples;
-            var commonMultiple = v1 * v2;
 
             var (n1, n2) = names;
             var combinedName = n1 + " " + n2;
@@ -45,7 +44,7 @@ namespace CounterLib
             var sb = new StringBuilder();
             for (int x = 1; x <= upperBound; x++)
             {
-                if (x % commonMultiple == 0)
+                if (x % v1 == 0 && x % v2 == 0)
                 {
                     sb.AppendLine(combinedName);
                 }
